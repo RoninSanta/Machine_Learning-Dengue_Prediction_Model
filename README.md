@@ -9,3 +9,22 @@ The objective of this project is to visualize the data provided and utilize mach
 
 ## Implementation
 #### [Data-Preprocessing]
+- The data from the 2 csv files are cleaned, trimed and logged as `new` datasets that is more suitable for the model, eg. 'New_Dengue_Cases.csv'
+- Merge the 2 new files to create a final comprehensive dataset
+  
+#### [Statistical Analysis]
+Measures the dataset using the below criterias:
+- Mode, Median, Mean
+- Measures of Spread
+- Type of Distribution, Skewness and Kurtosis
+
+#### [Data-Visualization]
+Implement the **Seaborn** Library in order to display a graphical charts
+- Histogram & Scatter Plot Each Year
+- Pairplot
+- Applying Simple Linear Regression
+
+#### [Machine- Learning Implementation]
+- Apply Logistic Regression
+- Apply k - Nearest Neighbour
+- Apply Decision Tree
